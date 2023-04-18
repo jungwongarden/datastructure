@@ -25,6 +25,7 @@ public class Set반복자이터레이터2 {
 		for (int i = 0; i < money.size(); i++) {
 			System.out.println(it.next());
 		}
+		System.out.println("---------------");
 		Object[] list = money.toArray();
 		for (Object x : list) {
 			System.out.println(x);
